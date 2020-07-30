@@ -1,0 +1,38 @@
+.nav{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 5vh;
+}
+.navLinkIconWrapper{
+    font-weight: bold;
+    align-items: flex-start;
+    height: 5vh;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;  
+}
+
+.navLinkWrapper{
+    align-items: flex-end;
+    height: 5vh;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;  
+}
+  
+.navLink{
+    padding: 10px;
+    width: 5vw;
+    text-align: center;
+    height: 5vh;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.navLink:hover{
+    background-color: whitesmoke;
+}

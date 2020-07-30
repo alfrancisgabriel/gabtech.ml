@@ -121,22 +121,3 @@
     flex-direction: column;
   }
 }
-
-.nav{
-  margin-top: 2vh;
-  display: flex;
-  flex-direction: row;
-}
-
-.navLink{
-  padding: 10px;
-  width: 5vw;
-  text-align: center;
-  justify-content: center;
-  height: 5vh;
-  animation-name: fadeIn;
-  animation-duration: 2s;
-}
-.navLink:hover{
-  background-color: whitesmoke;
-}
